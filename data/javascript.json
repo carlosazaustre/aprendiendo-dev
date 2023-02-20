@@ -1,0 +1,137 @@
+{
+  "info": {
+    "theme": "javascript",
+    "title": "Curso de JavaScript desde cero",
+    "description": "Aprende JavaScript desde cero y a tu ritmo. Este curso está pensado para aquellos que quieren iniciarse en el desarrollo de software utilizando JavaScript como lenguaje de programación.",
+    "image": "/javascript-logo.png",
+    "imageAlt": "Logo de JavaScript"
+  },
+  "questions": [
+    {
+      "title": "¿Por qué aprender JavaScript?",
+      "description": "JavaScript es el lenguaje de programación de la web. Conocerlo te abrirá las puertas a un mundo de posibilidades. Aprende JavaScript desde cero y a tu ritmo."
+    },
+    {
+      "title": "¿Cómo funciona el curso?",
+      "description": "A través de una serie de vídeos en YouTube, aprenderás los conceptos básicos de JavaScript. Cada vídeo dura entre 5 y 10 minutos y explican un concepto concreto. No hay una duración fija para el curso. Aprende a tu ritmo y cuando quieras."
+    },
+    {
+      "title": "¿Qué precio tiene?",
+      "description": "El curso es totalmente gratis y no te supondrá ningún coste. Si quieres apoyar el proyecto, puedes hacerlo a través de BuyMeACoffee. Tus aportaciones me ayudarán a seguir creando contenido de este tipo.<br /><br />Y si no puedes apoyar económicamente, puedes ayudarme compartiendo el curso con tus amigos y conocidos."
+    }
+  ],
+  "lessons": [
+    {
+      "title": "Introducción a JavaScript",
+      "videoId": "-rj-zxmdGHA",
+      "description": "¡Aprende a programar! Este curso ayuda a aquellos con poca o ninguna experiencia a iniciarse en el desarrollo de software utilizando JavaScript como lenguaje de programación.",
+      "topics": [
+        "Introducción",
+        "Variables",
+        "Tipos de datos",
+        "Operadores",
+        "Condicionales",
+        "Funciones",
+        "Funciones como clases",
+        "Clases ECMAScript 6"
+      ]
+    },
+    {
+      "title": "Bucles en JavaScript",
+      "videoId": "5ct-3tDiRUY",
+      "description": "En este vídeo aprenderás a utilizar los bucles en JavaScript. Los bucles son una herramienta muy útil para repetir código de forma automática.",
+      "topics": [
+        "¿Qué es un bucle",
+        "While",
+        "Do While",
+        "For",
+        "Foreach",
+        "For...in"
+      ]
+    },
+    {
+      "title": "Tipos de Datos en JavaScript",
+      "videoId": "lcuLBCleWGE",
+      "description": "Te explico todo acerca de los tipos de datos en JavaScript: OBJETO, ARRAY, NUMBER y STRING. Además, van a haber ejemplos para que aprendas más rápido y practiques con codigo real.",
+      "topics": ["Objeto", "Number", "Módulo Math", "Arrays", "String"]
+    },
+    {
+      "title": "Métodos de Array en JavaScript",
+      "videoId": "5yPf74sCu2k",
+      "description": "Los Arrays en JavaScript son una de las estructuras de datos más utilizadas. incorporan muchos métodos que si los conoces y sabes utilizarlos, te ayudarán a implementar soluciones sencillas y poderosas en tu código del día a día. En este vídeo te muestro varios de ellos.",
+      "topics": [
+        "Find",
+        "Some",
+        "Includes",
+        "Every",
+        "Map",
+        "Filter",
+        "Reduce",
+        "Array.from"
+      ]
+    },
+    {
+      "title": "El Objeto THIS y el SCOPE en JavaScript",
+      "videoId": "5lXwdTJScK8",
+      "description": "Aprende que hace el objeto THIS en JavaScript. Un objeto bastante peculiar que ha sido fuente de confusión durante mucho tiempo. En este video te cuento como funciona a grandes rasgos para que te quede más claro.",
+      "topics": ["Entiende como funciona THIS en JavaScript"]
+    },
+    {
+      "title": "Clousures en JavaScript",
+      "videoId": "xa8lhVwQBw4",
+      "description": "Las Closures o Funciones Cierre son una de las partes más importantes sobre JavaScript y que siempre nos provoca ciertas dudas. Con este vídeo te las resuelvo en menos de 10 minutos. Ya estás un paso más adelante en tu camino para dominar JavaScript!",
+      "topics": ["Entiende como funciona las Clousures en JavaScript"]
+    },
+    {
+      "title": "Asincronía en JavaScript",
+      "videoId": "rKK1q7nFt7M",
+      "description": "¿Tienes dudas con las promises y el Async/Await de JavaScript? No te pierdas este video dónde te resuelvo las dudas.",
+      "topics": ["Callbacks", "Promises", "Async/Await"]
+    },
+    {
+      "title": "Trabajando con APIs externas en JavaScript",
+      "videoId": "2Xm9P_tXtK8",
+      "description": "Una página web sin JavaScript no es una aplicación. Para que sea dinámica, necesitas que pueda consumir un servicio externo como puede ser un API REST. En este video te cuento como hacerlo tanto con el método fetch de JavaScript, así como se hacía antiguamente antes de ES6 con el objeto XMLHttpRequest. Podemos utilizar librerías y frameworks, pero aquí te cuento como hacerlo de forma nativa.",
+      "topics": ["Cómo consumir un API con JavaScript"]
+    },
+    {
+      "title": "JavaScript Avanzado",
+      "videoId": "7IKXP0NldBg",
+      "description": "Te comparto 5 conceptos de programación avanzada con JavaScript para aumentar tus skills y nivel en programación.",
+      "topics": [
+        "Currying",
+        "Composition",
+        "Clousures",
+        "Coalescing",
+        "Reflect API"
+      ]
+    },
+    {
+      "title": "Promesas y Async/Await Avanzado",
+      "videoId": "6O8ax3JYboc",
+      "description": "¿Cómo funciona la asincronía en JavaScript? Manejar el código asíncrono puede ser un gran dolor de cabeza, sobretodo si estás empezando con JavaScript. Entiende como funciona el flujo del código Asíncrono, las Promesas y Async/Await",
+      "topics": [
+        "Sincronía vs Asincronía",
+        "Promesas",
+        "Async/Await",
+        "Top-Level Await"
+      ]
+    },
+    {
+      "title": "JavaScript necesario antes de empezar con React.js",
+      "videoId": "sKsNO-quEAw",
+      "description": "Aprender React puede ser complicado, sobre todo si no tienes una base sólida de JavaScript. Pero no tienes porque saber todo lo que existe sobre JavaScript para empezar con React. En éste vídeo te resumo los puntos o características más utilizadas para que comenzar con React no sea dificil.",
+      "topics": [
+        "Template Literals",
+        "Shorthand Properties",
+        "Arrow Functions",
+        "Destructuring",
+        "Parámetros por defecto",
+        "Spread Operator / REST parameters",
+        "ESModules",
+        "Operador Ternario",
+        "Novedades de ECMAScript"
+      ]
+    }
+  ]
+}
