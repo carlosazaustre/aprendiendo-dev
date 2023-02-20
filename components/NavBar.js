@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Box, Container, Flex, Spacer, Text } from "@chakra-ui/react";
 import { SocialBtn } from "./SocialBtn";
 import { COLOR_THEME } from "../utils/constants";
@@ -15,14 +16,14 @@ export function NavBar({ theme }) {
           alignItems="center"
           as="nav"
         >
-          <div>
+          <Link href="/">
             <Text as="span" color="black">
               aprendiendo
             </Text>
             <Text as="span" color="yellow.600">
               .dev
             </Text>
-          </div>
+          </Link>
           <Spacer />
           <SocialBtn
             social="discord"
