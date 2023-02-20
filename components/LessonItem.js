@@ -15,16 +15,21 @@ export function LessonItem({ title, videoId, description, topics }) {
   return (
     <AccordionItem borderColor="yellow.300">
       <h2>
-        <AccordionButton color="yellow.300">
+        <AccordionButton
+          color="yellow.300"
+          h="65px"
+          _expanded={{ bg: "yellow.300", color: "gray.900" }}
+        >
           <Text
             as="h4"
             fontSize="lg"
-            color="yellow.300"
+            //color="yellow.300"
             flex="1"
             textAlign="left"
           >
             {title}
           </Text>
+
           <AccordionIcon />
         </AccordionButton>
       </h2>

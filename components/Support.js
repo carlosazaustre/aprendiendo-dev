@@ -10,7 +10,7 @@ export function Support() {
       <Stack direction="column" spacing={4} p="4">
         <SocialBtn
           social="bmc"
-          text="Apóyame en Buy Me a Coffee"
+          text="Invítame a un Café"
           url="https://www.buymeacoffee.com/carlosazaustre"
         />
         <SocialBtn

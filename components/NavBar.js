@@ -6,7 +6,14 @@ export function NavBar({ theme }) {
   return (
     <Box bg={COLOR_THEME[theme]}>
       <Container maxW="container.md">
-        <Flex p="4" w="100%" h="20" justify="" as="nav">
+        <Flex
+          p="4"
+          w="100%"
+          h="20"
+          justify="center"
+          alignItems="center"
+          as="nav"
+        >
           <div>
             <Text as="span" color="black">
               aprendiendo
@@ -18,7 +25,7 @@ export function NavBar({ theme }) {
           <Spacer />
           <SocialBtn
             social="discord"
-            text="Únete a la comunidad"
+            text="Comunidad"
             url="https://discord.gg/carlosazaustre"
           />
         </Flex>

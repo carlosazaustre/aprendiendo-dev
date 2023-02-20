@@ -26,7 +26,6 @@ export function TwitterShareBtn({
 }) {
   return (
     <StyledShare>
-      {/* <Spacer /> */}
       <TwitterShareButton url={url} title={title}>
         <Flex
           bg="white"
@@ -39,7 +38,8 @@ export function TwitterShareBtn({
           p={2}
           m={2}
           rounded="2xl"
-          boxShadow="dark-lg"
+          borderColor="gray.300"
+          borderWidth="1px"
         >
           <Box as="p" p="2">
             {text}
@@ -47,7 +47,6 @@ export function TwitterShareBtn({
           <TwitterIcon size={32} round={true} />
         </Flex>
       </TwitterShareButton>
-      {/* <Spacer /> */}
     </StyledShare>
   );
 }

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Box, Heading, Flex } from "@chakra-ui/react";
+import { Heading, Center, Text } from "@chakra-ui/react";
 import { Footer } from "../components/Footer";
 
 export default function Home() {
@@ -15,13 +15,14 @@ export default function Home() {
       </Head>
 
       <main>
-        <Box bg="yellow.300" height="90vh" width="100vw">
+        <Center bg="yellow.300" height="90vh" width="100vw">
           <Heading as="h1" size="2xl" p="4">
-            <Box my="20%" mx="auto" align="center">
-              aprendiendo.dev
-            </Box>
+            aprendiendo
+            <Text as="span" color="yellow.600">
+              .dev
+            </Text>
           </Heading>
-        </Box>
+        </Center>
       </main>
 
       <Footer />

@@ -11,6 +11,7 @@ export function SocialBtn({ social, text, url }) {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
+      size="lg"
     >
       {text}
     </Button>
