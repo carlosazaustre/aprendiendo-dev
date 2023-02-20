@@ -1,4 +1,4 @@
-import { Flex, Image, Stack, Text } from "@chakra-ui/react";
+import { Flex, Avatar, Image, Stack, Text } from "@chakra-ui/react";
 
 export function Author() {
   return (
@@ -9,13 +9,14 @@ export function Author() {
       justify="space-around"
       mx="auto"
     >
-      <Image
+      <Avatar
         mx="auto"
-        borderRadius="full"
-        boxSize="96px"
+        borderColor="white"
+        borderWidth="3px"
+        size="2xl"
         src="/carlosazaustre.jpg"
         objectFit="cover"
-        alt="Carlos Azaustre mirando a cámara con los premios de Google Developer Expert, Microsoft MVP y la placa de Youtube de 100000 suscriptores."
+        name="Carlos Azaustre"
       />
       <Text p="4" textAlign={["center", "center", "left"]}>
         Aprende con{" "}

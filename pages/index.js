@@ -15,7 +15,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Center bg="yellow.300" height="90vh" width="100vw">
+        <Center bg="yellow.300" height="85vh" width="100vw">
           <Heading as="h1" size="2xl" p="4">
             aprendiendo
             <Text as="span" color="yellow.600">

@@ -7,7 +7,8 @@ export function NavBar({ theme }) {
     <Box bg={COLOR_THEME[theme]}>
       <Container maxW="container.md">
         <Flex
-          p="4"
+          py="4"
+          px="2"
           w="100%"
           h="20"
           justify="center"

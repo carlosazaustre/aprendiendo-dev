@@ -14,7 +14,7 @@ export function Hero({ theme, title, description, image, imageAlt }) {
           {description}
         </Text>
         <Button as="a" href="#lessons" bg="black" color="white" size="lg" p="4">
-          ¡Quiero empezar!
+          ¡Comenzar ahora!
         </Button>
         <Author />
       </Container>

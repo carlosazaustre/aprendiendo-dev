@@ -53,7 +53,7 @@ export default function JavaScriptCoursePage({ info, questions, lessons }) {
           name="twitter:image"
           content="https://aprendiendo.dev/og-image.png"
         />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/javascript-logo.png" />
       </Head>
 
       <main>

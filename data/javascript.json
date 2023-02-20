@@ -2,22 +2,26 @@
   "info": {
     "theme": "javascript",
     "title": "Curso de JavaScript desde cero",
-    "description": "Aprende JavaScript desde cero y a tu ritmo. Este curso está pensado para aquellos que quieren iniciarse en el desarrollo de software utilizando JavaScript como lenguaje de programación.",
+    "description": "¿Quieres iniciarte en el mundo de la programación y no sabes por dónde empezar? Este curso de JavaScript es perfecto para ti. Aprende a tu propio ritmo y descubre todo lo que puedes lograr con este lenguaje de programación.",
     "image": "/javascript-logo.png",
     "imageAlt": "Logo de JavaScript"
   },
   "questions": [
     {
-      "title": "¿Por qué aprender JavaScript?",
-      "description": "JavaScript es el lenguaje de programación de la web. Conocerlo te abrirá las puertas a un mundo de posibilidades. Aprende JavaScript desde cero y a tu ritmo."
+      "title": "¿Por qué deberías aprender JavaScript?",
+      "description": "JavaScript es el lenguaje de programación de la web, y aprenderlo te dará acceso a muchas oportunidades. Con nuestro curso, podrás aprender JavaScript desde cero y a tu propio ritmo."
     },
     {
       "title": "¿Cómo funciona el curso?",
-      "description": "A través de una serie de vídeos en YouTube, aprenderás los conceptos básicos de JavaScript. Cada vídeo dura entre 5 y 10 minutos y explican un concepto concreto. No hay una duración fija para el curso. Aprende a tu ritmo y cuando quieras."
+      "description": "El curso te enseñará los conceptos básicos de JavaScript a través de una serie de <strong>vídeos de YouTube</strong>. Cada vídeo tiene una duración de entre 5 y 10 minutos y explica un concepto específico. No hay una duración fija para el curso, así que puedes aprender a tu propio ritmo y en cualquier momento."
     },
     {
-      "title": "¿Qué precio tiene?",
-      "description": "El curso es totalmente gratis y no te supondrá ningún coste. Si quieres apoyar el proyecto, puedes hacerlo a través de BuyMeACoffee. Tus aportaciones me ayudarán a seguir creando contenido de este tipo.<br /><br />Y si no puedes apoyar económicamente, puedes ayudarme compartiendo el curso con tus amigos y conocidos."
+      "title": "¿Cuánto cuesta el curso?",
+      "description": "<strong>¡Es totalmente gratis!</strong> No tendrás que pagar nada para acceder al curso. Si quieres apoyar nuestro proyecto, puedes hacerlo a través de <strong>BuyMeACoffee</strong>. Cada aportación me ayuda a seguir creando contenido gratuito de alta calidad."
+    },
+    {
+      "title": "¿Cómo puedes apoyar el proyecto?",
+      "description": "Si no puedes apoyar económicamente, no hay problema. Puedes ayudarme <strong>compartiendo el curso con tus amigos y conocidos</strong>. Juntos, podemos ayudar a más personas a aprender JavaScript y a alcanzar sus objetivos en la programación web."
     }
   ],
   "lessons": [
