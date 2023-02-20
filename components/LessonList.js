@@ -4,6 +4,8 @@ import { Syllabus } from "./Syllabus";
 export function LessonList({ title, lessons = [] }) {
   return (
     <Box
+      as="div"
+      id="lessons"
       bg="gray.900"
       w="100%"
       h="auto"

@@ -13,7 +13,7 @@ export function Hero({ theme, title, description, image, imageAlt }) {
         <Heading as="h2" size="md" p="4" color="gray.600">
           {description}
         </Heading>
-        <Button as="a" href="/3" bg="black" color="white" size="lg" p="4">
+        <Button as="a" href="#lessons" bg="black" color="white" size="lg" p="4">
           ¡Quiero empezar!
         </Button>
         <Author />
