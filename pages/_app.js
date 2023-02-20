@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react";
 import { Poppins } from "@next/font/google";
 import { ChakraProvider, extendTheme } from "@chakra-ui/react";
 
@@ -18,6 +19,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
       <Component {...pageProps} />
+      <Analytics />
     </ChakraProvider>
   );
 }
