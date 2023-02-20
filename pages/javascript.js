@@ -26,10 +26,32 @@ export default function JavaScriptCoursePage({ info, questions, lessons }) {
   return (
     <div>
       <Head>
-        <title>aprendiendo.dev</title>
+        <title>Curso de JavaScript desde cero - aprendiendo.dev</title>
         <meta
           name="description"
-          content="Aprende Programación Web y JavaScript"
+          content="Curso de Progrmación con JavaScript para principiantes."
+        />
+        <meta property="og:title" content="Curso de JavaScript desde cero" />
+        <meta
+          property="og:description"
+          content="Curso de JavaScript para principiantes. Aprende el lenguaje de programación más popular del mundo."
+        />
+        <meta
+          property="og:image"
+          content="https://aprendiendo.dev/og-image.png"
+        />
+        <meta property="og:url" content="https://aprendiendo.dev/javascript" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@carlosazaustre" />
+        <meta name="twitter:creator" content="@carlosazaustre" />
+        <meta name="twitter:title" content="Curso de JavaScript" />
+        <meta
+          name="twitter:description"
+          content="Curso de JavaScript para principiantes."
+        />
+        <meta
+          name="twitter:image"
+          content="https://aprendiendo.dev/og-image.png"
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
