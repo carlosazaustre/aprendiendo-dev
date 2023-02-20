@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Heading, Center, Text } from "@chakra-ui/react";
 import { Footer } from "../components/Footer";
+import { Wave } from "../components/Wave";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
             </Text>
           </Heading>
         </Center>
+        <Wave />
       </main>
 
       <Footer />
