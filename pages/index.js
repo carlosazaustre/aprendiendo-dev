@@ -17,7 +17,7 @@ export default function Home() {
       <main>
         <Box bg="yellow.300" height="90vh" width="100vw">
           <Heading as="h1" size="2xl" p="4">
-            <Box my="30%" mx="auto" align="center">
+            <Box my="20%" mx="auto" align="center">
               aprendiendo.dev
             </Box>
           </Heading>
