@@ -28,6 +28,6 @@ export const SOCIAL_ICON = {
 };
 
 export const POSITION_WAVES = {
-  up: "180",
-  down: "0",
+  down: "180",
+  up: "0",
 };

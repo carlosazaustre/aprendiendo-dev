@@ -24,7 +24,7 @@ export default function Home() {
             </Text>
           </Heading>
         </Center>
-        <Wave theme="javascript" position="up" />
+        <Wave theme="javascript" position="down" />
       </main>
 
       <Footer />

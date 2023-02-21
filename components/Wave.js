@@ -1,7 +1,7 @@
 import { COLOR_HEX, POSITION_WAVES } from "../utils/constants";
 import styles from "./Wave.module.css";
 
-export function Wave({ theme = "javascript", position = "up" }) {
+export function Wave({ theme = "javascript", position = "down" }) {
   return (
     <svg
       id="svg"
