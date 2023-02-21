@@ -9,7 +9,6 @@ import { Footer } from "../components/Footer";
 import data from "../data/javascript.json";
 
 export async function getStaticProps() {
-  console.log(data);
   return {
     props: {
       info: data?.info,

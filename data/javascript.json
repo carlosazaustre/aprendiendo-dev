@@ -4,7 +4,8 @@
     "title": "Curso de JavaScript desde cero",
     "description": "¿Quieres iniciarte en el mundo de la programación y no sabes por dónde empezar? Este curso de JavaScript es perfecto para ti. Aprende a tu propio ritmo y descubre todo lo que puedes lograr con este lenguaje de programación.",
     "image": "/javascript-logo.png",
-    "imageAlt": "Logo de JavaScript"
+    "imageAlt": "Logo de JavaScript",
+    "imageOg": "og-image.png"
   },
   "questions": [
     {

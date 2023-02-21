@@ -2,8 +2,20 @@ import Head from "next/head";
 import { Heading, Center, Text } from "@chakra-ui/react";
 import { Footer } from "../components/Footer";
 import { Wave } from "../components/Wave";
+import { Courses } from "../components/Courses";
 
-export default function Home() {
+import javascript from "../data/javascript.json";
+
+export async function getStaticProps() {
+  const data = [javascript];
+  return {
+    props: {
+      courses: data,
+    },
+  };
+}
+
+export default function Home({ courses }) {
   return (
     <div>
       <Head>
@@ -25,6 +37,7 @@ export default function Home() {
           </Heading>
         </Center>
         <Wave theme="javascript" position="down" />
+        <Courses courses={courses} />
       </main>
 
       <Footer />
