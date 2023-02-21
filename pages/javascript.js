@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import Head from "next/head";
 import { NavBar } from "../components/NavBar";
 import { Hero } from "../components/Hero";
@@ -21,8 +20,6 @@ export async function getStaticProps() {
 }
 
 export default function JavaScriptCoursePage({ info, questions, lessons }) {
-  const ctaSection = useRef(null);
-
   return (
     <div>
       <Head>
@@ -62,7 +59,6 @@ export default function JavaScriptCoursePage({ info, questions, lessons }) {
         <Summary questions={questions} />
         <Support />
         <LessonList
-          ref={ctaSection}
           title="Comienza a aprender JavaScript, ¡Hoy!"
           lessons={lessons}
         />
