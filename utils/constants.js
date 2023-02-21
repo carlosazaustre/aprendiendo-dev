@@ -26,3 +26,8 @@ export const SOCIAL_ICON = {
   twitch: FaTwitch,
   bmc: SiBuymeacoffee,
 };
+
+export const POSITION_WAVES = {
+  down: "180",
+  up: "0",
+};
