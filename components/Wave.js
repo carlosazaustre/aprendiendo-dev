@@ -1,7 +1,7 @@
-import { COLOR_HEX } from "../utils/constants";
+import { COLOR_HEX, POSITION_WAVES } from "../utils/constants";
 import styles from "./Wave.module.css";
 
-export function Wave({ theme = "javascript" }) {
+export function Wave({ theme = "javascript", position = "up" }) {
   return (
     <svg
       id="svg"
@@ -16,7 +16,7 @@ export function Wave({ theme = "javascript" }) {
         fill={COLOR_HEX[theme]}
         fill-opacity="1"
         className={styles.waves}
-        transform="rotate(-180 720 200)"
+        transform={`rotate(${POSITION_WAVES[position]} 720 200)`}
       ></path>
     </svg>
   );
