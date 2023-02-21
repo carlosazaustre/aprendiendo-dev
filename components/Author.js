@@ -5,6 +5,7 @@ export function Author() {
     <Flex
       direction={["column", "column", "row"]}
       p="4"
+      pb="0"
       alignItems="flex-start"
       justify="space-around"
       mx="auto"
@@ -18,7 +19,7 @@ export function Author() {
         objectFit="cover"
         name="Carlos Azaustre"
       />
-      <Text p="4" textAlign={["center", "center", "left"]}>
+      <Text p="4" pb="0" textAlign={["center", "center", "left"]}>
         Aprende con{" "}
         <a href="https://twitter.com/carlosazaustre">Carlos Azaustre</a>,
         Ingeniero en Telemática y desarrollador web con más de 10 años de
