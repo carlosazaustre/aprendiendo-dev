@@ -1,0 +1,35 @@
+{
+  "info": {
+    "theme": "react",
+    "title": "Curso de React.js desde cero",
+    "description": "¿Estás interesado en aprender una de las librerías más populares de JavaScript para el desarrollo de aplicaciones web? En este curso, tendrás acceso a un contenido completo y diseñado para que aprendas React.js desde cero, sin ningún coste.",
+    "image": "/react-logo.png",
+    "imageAlt": "Logo de React.js",
+    "imageOg": "og-react.png"
+  },
+  "questions": [
+    {
+      "title": "¿Por qué deberías aprender React.js?",
+      "description": "React.js es una de las bibliotecas más populares de JavaScript para construir interfaces de usuario. Aprender React.js te dará una ventaja competitiva en el mercado laboral y te permitirá crear aplicaciones web de alta calidad. Con nuestro curso gratuito, podrás aprender React.js desde cero y sin costo alguno"
+    },
+    {
+      "title": "¿Cómo funciona el curso?",
+      "description": "El curso está diseñado para ser fácil de seguir, incluso si no tienes experiencia previa en programación. El contenido del curso se divide en una serie de lecciones cortas y fáciles de entender, que te guiarán a través de los conceptos básicos de React.js. Puedes aprender a tu propio ritmo y en cualquier momento, ya que el curso está disponible en línea."
+    },
+    {
+      "title": "¿Cuánto cuesta el curso?",
+      "description": "<strong>¡Es totalmente gratis!</strong> No tendrás que pagar nada para acceder al curso. Si quieres apoyar nuestro proyecto, puedes hacerlo a través de <strong>BuyMeACoffee</strong>. Cada aportación me ayuda a seguir creando contenido gratuito de alta calidad."
+    },
+    {
+      "title": "¿Cómo puedes apoyar el proyecto?",
+      "description": "Si no puedes apoyar financieramente, no te preocupes. Puedes ayudarnos compartiendo el curso con tus amigos y conocidos en las redes sociales. Juntos, podemos ayudar a más personas a aprender React.js y a alcanzar sus objetivos en la programación web. ¡Únete a nuestra comunidad y comienza tu viaje en React.js hoy mismo!"
+    }
+  ],
+  "lessons": [
+    {
+      "title": "Qué es JSX",
+      "videoId": "oGSf4_bOzec",
+      "description": "JSX es una extensión de JavaScript utilizada en conjunto con React para describir la estructura y el contenido de los componentes de la interfaz de usuario. Aprenderás las ventajas de utilizar JSX, como una mejora en la legibilidad del código, mayor productividad y reutilización de código, y facilidad de mantenimiento. Además, verás cómo integrar JSX con React para escribir componentes de la interfaz de usuario eficientes y reutilizables. ¡Aprende a aprovechar al máximo JSX en tus aplicaciones React!"
+    }
+  ]
+}
