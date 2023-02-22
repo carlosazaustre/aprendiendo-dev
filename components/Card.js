@@ -13,7 +13,7 @@ export function Card({ title, imageOg, imageAlt, theme }) {
         flexDir="column"
         gap="1rem"
       >
-        <Heading align="center" size="lg" fontWeight="semibold" as="h3">
+        <Heading align="center" size="md" fontWeight="semibold" as="h3">
           {title}
         </Heading>
 
@@ -21,7 +21,7 @@ export function Card({ title, imageOg, imageAlt, theme }) {
           bg="black"
           _hover={{ bg: "#f0dc4d", color: "black" }}
           color="white"
-          size="lg"
+          size="md"
           as={NextLink}
           href={`/${theme}`}
         >

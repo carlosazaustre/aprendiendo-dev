@@ -10,7 +10,7 @@ export function Summary({ questions = [] }) {
             {question.title}
           </Heading>
           <Text as="p" py="2" pb="8" px="4" fontSize="lg">
-            <span>{question.description}</span>
+            <span dangerouslySetInnerHTML={{ __html: question.description }} />
           </Text>
         </Fragment>
       ))}
