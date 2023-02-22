@@ -6,9 +6,10 @@ import { Wave } from "../components/Wave";
 import { Courses } from "../components/Courses";
 
 import javascript from "../data/javascript.json";
+import react from "../data/react.json";
 
 export async function getStaticProps() {
-  const data = [javascript];
+  const data = [javascript, react];
   return {
     props: {
       courses: data,

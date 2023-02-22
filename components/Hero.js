@@ -33,7 +33,7 @@ export function Hero({ theme, title, description, image, imageAlt }) {
           <Author />
         </Container>
       </Box>
-      <Wave />
+      <Wave theme={theme} />
     </>
   );
 }
