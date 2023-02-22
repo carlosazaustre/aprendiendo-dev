@@ -9,7 +9,6 @@ import { Footer } from "../components/Footer";
 import data from "../data/javascript.json";
 
 export async function getStaticProps() {
-  console.log(data);
   return {
     props: {
       info: data?.info,
@@ -26,7 +25,7 @@ export default function JavaScriptCoursePage({ info, questions, lessons }) {
         <title>Curso de JavaScript desde cero - aprendiendo.dev</title>
         <meta
           name="description"
-          content="Curso de Progrmación con JavaScript para principiantes."
+          content="Curso de Programación con JavaScript para principiantes."
         />
         <meta property="og:title" content="Curso de JavaScript desde cero" />
         <meta
@@ -35,7 +34,7 @@ export default function JavaScriptCoursePage({ info, questions, lessons }) {
         />
         <meta
           property="og:image"
-          content="https://aprendiendo.dev/og-image.png"
+          content={`https://aprendiendo.dev/${info?.imageOg}`}
         />
         <meta property="og:url" content="https://aprendiendo.dev/javascript" />
         <meta name="twitter:card" content="summary_large_image" />
@@ -48,7 +47,7 @@ export default function JavaScriptCoursePage({ info, questions, lessons }) {
         />
         <meta
           name="twitter:image"
-          content="https://aprendiendo.dev/og-image.png"
+          content={`https://aprendiendo.dev/${info?.imageOg}`}
         />
         <link rel="icon" href="/javascript-logo.png" />
       </Head>

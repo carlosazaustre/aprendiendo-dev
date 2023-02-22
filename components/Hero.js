@@ -19,6 +19,11 @@ export function Hero({ theme, title, description, image, imageAlt }) {
             as="a"
             href="#lessons"
             bg="black"
+            _hover={{
+              border: "2px solid black",
+              bg: "transparent",
+              color: "black",
+            }}
             color="white"
             size="lg"
             p="4"
