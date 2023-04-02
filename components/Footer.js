@@ -1,7 +1,7 @@
 import { Text, Link, Center } from "@chakra-ui/react";
 import { TwitterShareBtn } from "./TwitterShareBtn";
 
-export function Footer({ courseId, courseName }) {
+export function Footer({ courseId = "", courseName = "Programación Web" }) {
   return (
     <Center as="footer" p="4" h="140px">
       <Text>
