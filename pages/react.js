@@ -30,7 +30,7 @@ export default function JavaScriptCoursePage({ info, questions, lessons }) {
         <meta property="og:title" content="Curso de React desde cero" />
         <meta
           property="og:description"
-          content="Curso de JavaScript para principiantes. Aprende el lenguaje de programación más popular del mundo."
+          content="Curso de React.js desde cero. Aprende una de las librerías JavaScript más populares."
         />
         <meta
           property="og:image"
@@ -63,7 +63,7 @@ export default function JavaScriptCoursePage({ info, questions, lessons }) {
         />
       </main>
 
-      <Footer />
+      <Footer courseId="react" courseName="ReactJS" />
     </div>
   );
 }

@@ -27,9 +27,59 @@
   ],
   "lessons": [
     {
+      "title": "JavaScript necesario para React",
+      "videoId": "sKsNO-quEAw",
+      "description": "Aprende los conceptos básicos de JavaScript que necesitas para aprender React.js. Aprenderás sobre variables, funciones, condicionales, bucles, objetos, arrays, y mucho más."
+    },
+    {
+      "title": "React en 30 minutos",
+      "videoId": "EMk6nom1aS4",
+      "description": "Aprende los conceptos básicos de React.js en 30 minutos. Aprenderás qué es React, cómo funciona, y cómo puedes utilizarlo para crear aplicaciones web."
+    },
+    {
       "title": "Qué es JSX",
       "videoId": "oGSf4_bOzec",
       "description": "JSX es una extensión de JavaScript utilizada en conjunto con React para describir la estructura y el contenido de los componentes de la interfaz de usuario. Aprenderás las ventajas de utilizar JSX, como una mejora en la legibilidad del código, mayor productividad y reutilización de código, y facilidad de mantenimiento. Además, verás cómo integrar JSX con React para escribir componentes de la interfaz de usuario eficientes y reutilizables. ¡Aprende a aprovechar al máximo JSX en tus aplicaciones React!"
+    },
+    {
+      "title": "React desde cero",
+      "videoId": "4AFOCAgywLc",
+      "description": "Curso práctico de React.js desde cero. Desarrollamos una aplicación web paso a paso. explicando conceptos y tips para tu día a día como programador con JavaScript y React."
+    },
+    {
+      "title": "React Router DOM",
+      "videoId": "afDXVnDnBf4",
+      "description": "Aprende a utilizar React Router DOM para crear aplicaciones web con múltiples páginas y navegación entre ellas. Aprenderás a crear rutas, enlaces, enrutadores, y mucho más."
+    },
+    {
+      "title": "Fetch en React.js",
+      "videoId": "6u1RHUoXIPI",
+      "description": "Aprende como hacer Fetching de datos en React.js como un profesional"
+    },
+    {
+      "title": "Maneja autenticación en React con Auth0",
+      "videoId": "sTJaHQINpTc",
+      "description": "Aprende a manejar la autenticación en React.js con Auth0, una plataforma de autenticación y autorización que te permite manejar usuarios y roles de forma segura."
+    },
+    {
+      "title": "Conceptos de React Avanzado",
+      "videoId": "HsRn_DgJ7vU",
+      "description": "Aprende los conceptos avanzados de React.js como Hooks, Context, Portals, HOC, Suspense, etc."
+    },
+    {
+      "title": "Redux Toolkit",
+      "videoId": "fMiFnbufAP4",
+      "description": "Aprende a manejar el estado global de tu aplicación React con Redux Toolkit, la evolución de Redux con mucha menos configuración"
+    },
+    {
+      "title": "Prueba Técnica con React.js",
+      "videoId": "2Lmz87uYBsw",
+      "description": "Normalmente si aplicas a un puesto de desarrollo frontend, lo más habitual es que te hagan una prueba técnica. Esta puede ser muy diversa pero suele ser frecuente que desarrolles una pequeña aplicación web que consuma un API y muestres la información. En este vídeo vemos justamente eso y para ello utilizamos como base uno de los retos de programación mensuales de @mouredev , que consiste en crear una app a partir de la API pública de StarWars. Los requisitos son: - Mostrar un listado de los personajes que devuelve el API - Mostrar la información detalle de cada personaje - Paginación del listado - Función de búsqueda de personajes."
+    },
+    {
+      "title": "Reto: Juego Piedra-Papel-Tijera en React.js",
+      "videoId": "6YtPXjY30Qc",
+      "description": "En este vídeo vamos a desarrollar un juego de piedra-papel-tijera-lagarto-spock en React.js. El juego consiste en que el usuario elija una de las opciones y el ordenador elija una opción al azar. El usuario gana si elige la opción que gana a la opción del ordenador. Si elige la misma opción que el ordenador, se considera empate. Si elige la opción que pierde, el ordenador gana."
     }
   ]
 }

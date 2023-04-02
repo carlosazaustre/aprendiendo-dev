@@ -63,7 +63,7 @@ export default function JavaScriptCoursePage({ info, questions, lessons }) {
         />
       </main>
 
-      <Footer />
+      <Footer courseId="javascript" courseName="JavaScript" />
     </div>
   );
 }
