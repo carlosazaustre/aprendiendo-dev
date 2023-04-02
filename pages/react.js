@@ -6,7 +6,7 @@ import { Support } from "../components/Support";
 import { LessonList } from "../components/LessonList";
 import { Footer } from "../components/Footer";
 
-import data from "../data/javascript.json";
+import data from "../data/react.json";
 
 export async function getStaticProps() {
   return {
@@ -22,48 +22,48 @@ export default function JavaScriptCoursePage({ info, questions, lessons }) {
   return (
     <div>
       <Head>
-        <title>Curso de JavaScript desde cero - aprendiendo.dev</title>
+        <title>Curso de React.js desde cero - aprendiendo.dev</title>
         <meta
           name="description"
-          content="Curso de Programación con JavaScript para principiantes."
+          content="Curso de Desarrollo Web con React.js para principiantes."
         />
-        <meta property="og:title" content="Curso de JavaScript desde cero" />
+        <meta property="og:title" content="Curso de React desde cero" />
         <meta
           property="og:description"
-          content="Curso de JavaScript para principiantes. Aprende el lenguaje de programación más popular del mundo."
+          content="Curso de React.js desde cero. Aprende una de las librerías JavaScript más populares."
         />
         <meta
           property="og:image"
           content={`https://aprendiendo.dev/${info?.imageOg}`}
         />
-        <meta property="og:url" content="https://aprendiendo.dev/javascript" />
+        <meta property="og:url" content="https://aprendiendo.dev/react" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@carlosazaustre" />
         <meta name="twitter:creator" content="@carlosazaustre" />
-        <meta name="twitter:title" content="Curso de JavaScript" />
+        <meta name="twitter:title" content="Curso de React.js" />
         <meta
           name="twitter:description"
-          content="Curso de JavaScript para principiantes."
+          content="Curso de React.js para principiantes."
         />
         <meta
           name="twitter:image"
           content={`https://aprendiendo.dev/${info?.imageOg}`}
         />
-        <link rel="icon" href="/javascript-logo.png" />
+        <link rel="icon" href="/react-logo.png" />
       </Head>
 
       <main>
-        <NavBar theme="javascript" />
+        <NavBar theme="react" />
         <Hero {...info} />
         <Summary questions={questions} />
         <Support />
         <LessonList
-          title="Comienza a aprender JavaScript, ¡Hoy!"
+          title="Comienza a aprender React, ¡Hoy!"
           lessons={lessons}
         />
       </main>
 
-      <Footer courseId="javascript" courseName="JavaScript" />
+      <Footer courseId="react" courseName="ReactJS" />
     </div>
   );
 }
