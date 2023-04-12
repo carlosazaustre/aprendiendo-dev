@@ -1,7 +1,7 @@
-import { Box, Container, Heading } from "@chakra-ui/react";
+import { Box, Container, Heading, Text } from "@chakra-ui/react";
 import { Syllabus } from "./Syllabus";
 
-export function LessonList({ title, lessons = [] }) {
+export function LessonList({ title, subtitle, lessons = [] }) {
   return (
     <Box
       as="div"
@@ -18,6 +18,9 @@ export function LessonList({ title, lessons = [] }) {
         <Heading as="h3" size="lg" p="4">
           {title}
         </Heading>
+        <Text as="p" size="md" p="4">
+          {subtitle}
+        </Text>
         <Syllabus lessons={lessons} />
       </Container>
     </Box>

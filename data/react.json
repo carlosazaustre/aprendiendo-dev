@@ -67,6 +67,12 @@
       "description": "Aprende los conceptos avanzados de React.js como Hooks, Context, Portals, HOC, Suspense, etc."
     },
     {
+      "title": "Testing en React.js",
+      "videoId": "bTGil8qPmXo",
+      "description": "Exploramos la importancia del testing en aplicaciones creadas con React.js y cómo las herramientas adecuadas pueden mejorar la calidad del código y la experiencia del usuario. Aprende a realizar pruebas unitarias, de integración, de comportamiento del usuario y de accesibilidad en tus proyectos React.",
+      "isNew": true
+    },
+    {
       "title": "Redux Toolkit",
       "videoId": "fMiFnbufAP4",
       "description": "Aprende a manejar el estado global de tu aplicación React con Redux Toolkit, la evolución de Redux con mucha menos configuración"

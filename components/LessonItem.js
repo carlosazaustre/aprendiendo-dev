@@ -8,10 +8,11 @@ import {
   List,
   ListItem,
   ListIcon,
+  Badge,
 } from "@chakra-ui/react";
 import { MdCheckCircle } from "react-icons/md";
 
-export function LessonItem({ title, videoId, description, topics }) {
+export function LessonItem({ title, videoId, description, topics, isNew }) {
   return (
     <AccordionItem borderColor="yellow.300">
       <h2>
@@ -28,6 +29,13 @@ export function LessonItem({ title, videoId, description, topics }) {
             textAlign="left"
           >
             {title}
+            {isNew ? (
+              <Badge colorScheme="green" ml={2}>
+                Nuevo
+              </Badge>
+            ) : (
+              ""
+            )}
           </Text>
 
           <AccordionIcon />

@@ -59,6 +59,7 @@ export default function JavaScriptCoursePage({ info, questions, lessons }) {
         <Support />
         <LessonList
           title="Comienza a aprender React, ¡Hoy!"
+          subtitle="A través de la siguiente serie de vídeos aprenderás a crear aplicaciones web con React.js"
           lessons={lessons}
         />
       </main>

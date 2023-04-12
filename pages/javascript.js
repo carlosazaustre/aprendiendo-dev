@@ -59,6 +59,7 @@ export default function JavaScriptCoursePage({ info, questions, lessons }) {
         <Support />
         <LessonList
           title="Comienza a aprender JavaScript, ¡Hoy!"
+          subtile="A través de la siguiente serie de videos, aprenderás el lenguaje y estarás listo para empezar con un framework frontend web"
           lessons={lessons}
         />
       </main>
